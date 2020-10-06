@@ -1,0 +1,105 @@
+.parent{
+    display: flex;
+    flex-direction: row;
+    margin: 2%;
+    background-color: slateblue;
+}
+.child1{
+    border: 2px solid black;
+    padding: 25px;
+    margin:10px;
+    width: 30%;
+    font-size: 20px;
+    border-radius: 10%;
+}
+.child2{
+    border: 2px solid black;
+    padding: 25px;
+    margin:10px;
+    width: 70%;
+    font-size: 20px;
+    border-radius: 10%;
+}
+img{
+    width: 80%;
+    display: block;
+    border:2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px red;
+}
+@media only screen and (min-width:320px ) and (max-width:480px){
+    .parent{
+        display: flex;
+        flex-direction: column;
+        padding: 1%;
+        margin:1%;
+        text-align: center;
+    }
+    .child1{
+        border: 2px solid black;
+        padding: 1%;
+        margin:1%;
+        width: 94%;
+        font-size: 20px;
+        border-radius: 10%;
+        background-color: blueviolet;
+    }
+    .child2{
+        border: 2px solid black;
+        padding: 1%;
+        margin:1%;
+        width: 94%;
+        font-size: 20px;
+        border-radius: 10%;
+        background-color: blueviolet;
+    }
+    img{
+        width: 80%;
+        display: block;
+        border:2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px red;
+    }
+
+}
+@media only screen and (min-width:750px ) and (max-width:900px){
+    .parent{
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+        margin:1%;
+        text-align: center;
+    }
+    .child1{
+        border: 2px solid black;
+        padding: 1%;
+        margin:1%;
+        width: 94%;
+        font-size: 20px;
+        border-radius: 10%;
+        background-color:skyblue;
+    }
+    .child2{
+        border: 2px solid black;
+        padding: 1%;
+        margin:1%;
+        width: 94%;
+        font-size: 20px;
+        border-radius: 10%;
+        background-color:skyblue;
+    }
+    img{
+        width: 80%;
+        display: block;
+        border:2px solid black;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 2px red;
+    }
+
+}

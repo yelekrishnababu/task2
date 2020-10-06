@@ -1,0 +1,41 @@
+{
+    "details":{
+        "name":"Yele Krishna Babu",
+        "image":"img.jpg",
+        "email":"krishnaktsmcl@gmail.com",
+        "number":"9346577251",
+        "Address":"Macherla"
+    },
+    "objective":{
+        "info":"To get into Govt. sector"
+    },
+    "education":[
+    {
+        "institute":"Krishnaveni High School",
+        "yop":"2015-16",
+        "percentage":"10"
+    },
+    {
+        "institute":"Narayana IIT Academy",
+        "yop":"2016-18",
+        "percentage":"98.5"
+    },
+    {
+        "institute":"R.V.R & J.College of Engineering",
+        "yop":"2018-22",
+        "percentage":"85"
+    }
+],
+    "technicalskills":[{
+        "title":"Programming Languages",
+        "info":["C","Python","JS"]
+    },
+    {
+        "title":"Databases",
+        "info":["Sql","Postgresql"]
+
+    },{
+        "title":"OS",
+        "info":["Windows","Ubantu","Linux"]
+    }]
+}   
